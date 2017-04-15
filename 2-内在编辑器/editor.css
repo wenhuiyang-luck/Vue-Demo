@@ -11,17 +11,6 @@ body {
 	background-color: #F9F0DA;
 }
 
-a, 
-a:visited {
-	outline:none;
-	color:#A3D0C3;
-}
-
-a:hover{
-	text-decoration:none;
-}
-
-
 /*-------------------------
 	      tooltip
 --------------------------*/
