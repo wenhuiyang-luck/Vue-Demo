@@ -2,7 +2,7 @@
 
 1. [导航菜单](https://wenhuiyang-luck.github.io/Vue-Demo/1-导航菜单/index.html)
 
-- 应用了vue.js的v-for指令来渲染一个列表、v-bind指令来绑定class以及v-on指令来处理事件.
+- 应用了vue.js的v-for指令来渲染一个列表、v-bind指令来绑定class以及v-on指令来处理事件。
 
 2. [内在编辑器](https://wenhuiyang-luck.github.io/Vue-Demo/2-内在编辑器/index.html)
 
@@ -10,4 +10,6 @@
 
 3. [商品计价](https://wenhuiyang-luck.github.io/Vue-Demo/3-商品计价/index.html)
 
-- 类似购物车那种选中合计总价的功能，v-for指令渲染列表、v-bind指令来绑定class以及v-on指令来处理事件.
+- 类似购物车那种选中合计总价的功能，v-for指令渲染列表、v-bind指令来绑定class以及v-on指令来处理事件;
+
+- 自定义滤波器，增加货比符号和适当的小数位数。
