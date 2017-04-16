@@ -1,0 +1,101 @@
+[v-cloak] {
+	display: none;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+li{
+    list-style:none;
+}
+
+/*--------------
+	The menu
+----------------*/
+.menu {
+	width: 690px;
+	padding: 8px;
+	margin: 45px auto 15px;
+	background-color: #5c9bb7;
+	box-shadow: 0 1px 1px #ccc;
+	border-radius: 3px;
+	position: relative;
+	text-align: right;
+	line-height: 1;
+}
+
+.menu span {
+	width: 30px;
+	height: 30px;
+	background: #4987a1;
+	display: inline-block;
+	text-decoration: none;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+.menu span.active {
+	background-color: #c14694;
+}
+
+.menu span i {
+	color: #eee;
+	font-size: 18px;
+	margin: 6px;
+}
+
+/*-----------------
+	Grid layout
+-------------------*/
+
+ul.grid {
+	list-style: none;
+	width: 690px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+ul.grid li {
+	padding: 5px;
+	float: left;
+}
+
+ul.grid li img {
+	width: 220px;
+	height: 220px;
+	object-fit: cover;
+	display: block;
+	border-style: none;
+}
+
+/*----------------
+	List layout
+------------------*/
+ul.list {
+	list-style: none;
+	width: 500px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+ul.list li {
+	border-bottom: 1px solid #ddd;
+	padding: 10px;
+	overflow: hidden;
+}
+
+ul.list li img {
+	width: 100px;
+	height: 100px;
+	float: left;
+	border-style: none;
+}
+
+ul.list li p {
+	margin-left: 135px;
+	font-weight: bold;
+	color: #6e7a7f;
+}
+
