@@ -13,3 +13,7 @@
 - 类似购物车那种选中合计总价的功能，v-for指令渲染列表、v-bind指令来绑定class以及v-on指令来处理事件;
 
 - 自定义过滤器，给价格增加货币符号和适当的小数位数。
+
+5. [变换布局](https://wenhuiyang-luck.github.io/Vue-Demo/5-变换布局/index.html)
+
+- 应用了vue.js的v-if指令进行了条件渲染，以及v-bind绑定class和v-on处理事件。
