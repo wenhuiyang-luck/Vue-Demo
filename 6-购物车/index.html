@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>购物车</title>
+	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.0.2/css/bootstrap.min.css"">
+	<link rel="stylesheet" href="cart.css">
+</head>
+
+<body>
+	<div id="app" class="container" v-cloak>
+		<table class="table">
+			<thead>
+				<tr>
+					<th>产品名称</th>
+					<th>购买数量</th>
+					<th>产品单价</th>
+					<th>产品总价</th>
+					<th>操作</th>
+				</tr>
+			</thead>
+
+			<tbody>
+				<tr v-for="(item, index) in items">
+					<td>{{item.name}}</td>
+					<td>
+						<button type="button" class="btn tn-primary btn-sm" v-on:click="substract(index)">-</button>
+						<input type="text" v-model="item.quantity">
+						<button type="button" class="btn tn-primary btn-sm" v-on:click="add(index)">+</button>
+					</td>
+					<td>{{item.price | moneyFormat}}</td>
+					<td>{{item.price * item.quantity | moneyFormat}}</td>
+					<td>
+						<button type="button" class="btn btn-danger btn-sm" v-on:click="remove(index)">删除</button>
+					</td>
+				</tr>
+
+				<tr>
+					<td colspan="2"></td>
+					<td>总购买价</td>
+					<td>{{total() | moneyFormat}}</td>
+					<td>
+						<button type="button" class="btn btn-danger btn-sm" v-on:click="empty()">清空</button>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<p v-if="items.length === 0">您的购物车为空</p>
+	</div>
+
+	<script src="https://unpkg.com/tween.js@16.3.4"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.3/vue.js"></script>
+	<script type="text/javascript" src="cart.js"></script>
+</body>
+</html>

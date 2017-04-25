@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#app {
+	margin: 100px auto;
+	width: 1000px;
+}
+thead {
+	font-size: 16px;
+}
+
+th,td {
+	text-align: center;
+}
+td {
+	width: 200px;
+}
+tbody input {
+	width: 30px;
+	padding: 2px 0;
+	text-align: center;
+}
+tbody tr:last-child {
+	font-size: 16px;
+	font-weight: bold;
+}
+p {
+	font-size: 16px;
+	text-align: center;
+}
