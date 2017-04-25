@@ -17,3 +17,5 @@
 5. [变换布局](https://wenhuiyang-luck.github.io/Vue-Demo/5-变换布局/index.html)
 
 - 应用了vue.js的v-if指令进行了条件渲染，以及v-bind绑定class和v-on处理事件。
+
+6. [购物车](https://wenhuiyang-luck.github.io/Vue-Demo/6-购物车/index.html)
