@@ -14,8 +14,13 @@
 
 - 自定义过滤器，给价格增加货币符号和适当的小数位数。
 
+4. [即时搜索](https://wenhuiyang-luck.github.io/Vue-Demo/4-即时搜索/index.html)
+
+- 待修改，目前还有问题，不能实现过滤。
+
 5. [变换布局](https://wenhuiyang-luck.github.io/Vue-Demo/5-变换布局/index.html)
 
 - 应用了vue.js的v-if指令进行了条件渲染，以及v-bind绑定class和v-on处理事件。
 
 6. [购物车](https://wenhuiyang-luck.github.io/Vue-Demo/6-购物车/index.html)
+
