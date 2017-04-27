@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>即时搜索</title>
+	<link rel="stylesheet" href="search.css">
+</head>
+<body>
+	<form id="main" v-cloak>
+		<div class="searchBar">
+			<input type="text" v-model="searchString" placeholder="Enter your search terms " />
+		</div>
+
+		<ul>
+			<li v-for="item in items">
+				<a v-bind:href="item.url">
+					<img v-bind:src="item.image" />
+				</a>
+				<p>{{item.title}}</p>
+			</li>
+		</ul>
+	</form>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.3/vue.js"></script>
+	<script type="text/javascript" src="search.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+[v-cloak] {display: none;}
+
+* {
+	margin: 0; 
+	padding: 0;
+}
+
+.searchBar {
+	background-color: #5c9bb7;
+	box-shadow: 0 1px 1px #ccc;
+	border-radius: 2px;
+	width: 400px;
+	padding: 14px;
+	margin: 45px auto 20px;
+	position: relative;
+}
+
+.searchBar input {
+	border-style: none;
+	width: 100%;
+	line-height: 19px;
+	padding: 11px 0;
+	border-radius: 2px;
+	box-shadow: 0 2px 8px #c4c4c4 inset;
+	text-align: left;
+	font-size: 14px;
+	color: #aaa;
+	font-weight: bold;
+	font-style: italic;
+	font-family: Georgia, serif;
+    outline: none;
+    text-indent: 40px;
+}
+
+/*.searchBar input:focus {
+	color: rgba(255,255,255,0.1);
+}*/
+ul {
+	list-style: none;
+	width: 428px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+ul li {
+	border-bottom: 1px solid #ddd;
+	padding: 10px;
+	overflow: hidden;
+}
+
+ul li img {
+	width: 50px;
+	height: 50px;
+	float: left;
+	border-style: none;
+}
+
+ul li p {
+	margin-left: 65px;
+	font-weight: bold;
+	padding-top: 12px;
+	color: #6e7a7f;
+}
