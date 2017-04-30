@@ -2,7 +2,7 @@
 
 1. [导航菜单](https://wenhuiyang-luck.github.io/Vue-Demo/1-导航菜单/index.html)
 
-- 应用了vue.js的v-for指令来渲染一个列表、v-bind指令来绑定class以及v-on指令来处理事件。
+- v-for指令来渲染一个列表、v-bind指令来绑定class以及v-on指令来处理事件。
 
 2. [内在编辑器](https://wenhuiyang-luck.github.io/Vue-Demo/2-内在编辑器/index.html)
 
@@ -20,7 +20,7 @@
 
 5. [变换布局](https://wenhuiyang-luck.github.io/Vue-Demo/5-变换布局/index.html)
 
-- 应用了vue.js的v-if指令进行了条件渲染，以及v-bind绑定class和v-on处理事件。
+- v-if指令进行了条件渲染，以及v-bind绑定class和v-on处理事件。
 
 6. [购物车](https://wenhuiyang-luck.github.io/Vue-Demo/6-购物车/index.html)
 
